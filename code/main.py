@@ -71,7 +71,7 @@ def attach_promo_type(sales: pd.DataFrame, promotions: pd.DataFrame) -> pd.DataF
 
 
 def make_features(data: dict[str, pd.DataFrame]) -> pd.DataFrame:
-    """Build one simple model table at SKU x cluster x week grain."""
+    """Build the model table at SKU x cluster x week grain."""
     sales = attach_promo_type(data["sales"], data["promotions"])
     parent = data["parent"].rename(columns={"units_sold": "parent_units"})
 
@@ -236,7 +236,7 @@ def run_eda(df: pd.DataFrame) -> None:
 
 
 def train_model(df: pd.DataFrame) -> dict[str, Any]:
-    """Train a simple model and compare it against a no-signal baseline."""
+    """Train the forecasting model and compare it against a no-signal baseline."""
     cutoff = df["week_start"].max() - pd.Timedelta(weeks=8)
     train = df[df["week_start"] <= cutoff].copy()
     test = df[df["week_start"] > cutoff].copy()
@@ -289,7 +289,7 @@ def train_model(df: pd.DataFrame) -> dict[str, Any]:
         "holdout_start": str(test["week_start"].min().date()),
         "holdout_end": str(test["week_start"].max().date()),
     }
-    joblib.dump(state, ARTIFACTS / "simple_forecaster.joblib")
+    joblib.dump(state, ARTIFACTS / "forecaster.joblib")
 
     summary = pd.DataFrame(
         [
@@ -312,7 +312,7 @@ def train_model(df: pd.DataFrame) -> dict[str, Any]:
 def write_model_notes(summary: dict[str, Any]) -> None:
     notes = f"""# Model Notes
 
-I used a Random Forest regression model with a few simple features:
+I used a Random Forest regression model with a compact feature set:
 
 - recent SKU x cluster demand lags: 1, 2, and 4 weeks,
 - a 4-week rolling average,
@@ -329,7 +329,7 @@ Holdout evaluation uses the last 8 historical weeks: {summary['holdout_start']} 
 
 The full model is better, so the available signals are useful.
 
-Uncertainty: forecast intervals use the 10th and 90th percentile residuals from the holdout period. This is simple, explainable, and appropriate for a prototype.
+Uncertainty: forecast intervals use the 10th and 90th percentile residuals from the holdout period. This is transparent, explainable, and appropriate for a prototype.
 """
     (OUT / "model_notes.md").write_text(notes, encoding="utf-8")
 
@@ -460,7 +460,7 @@ def forecast_sku(
 
 
 def retrieve_knowledge(query: str, top_k: int = 2) -> list[dict[str, str]]:
-    """Retrieve simple keyword-matched snippets from the markdown knowledge base."""
+    """Retrieve keyword-matched snippets from the markdown knowledge base."""
     lower_query = query.lower()
     query_terms = set(re.findall(r"[a-z0-9]+", lower_query))
     docs = []
@@ -500,8 +500,8 @@ def choose_snippet(text: str, query: str) -> str:
     return paragraphs[0][:600] if paragraphs else text[:600]
 
 
-class SimplePlanner:
-    """Small three-agent system: Planner -> Forecasting Tool and/or Knowledge Tool."""
+class Planner:
+    """Three-agent system: Planner -> Forecasting Tool and/or Knowledge Tool."""
 
     def __init__(self, state: dict[str, Any]):
         self.state = state
@@ -617,7 +617,7 @@ def run_agent_evaluation(state: dict[str, Any]) -> None:
         6: {"Forecasting Agent", "Knowledge Agent"},
     }
 
-    planner = SimplePlanner(state)
+    planner = Planner(state)
     rows = []
     answers = [
         "# Agent Evaluation",
@@ -642,7 +642,7 @@ def run_agent_evaluation(state: dict[str, Any]) -> None:
         rows.append({"scenario": idx, "planner_routed_correctly": route_ok, "tool_args_reasonable": args_ok, "quality_1_to_5": quality, "tools_called": ", ".join(result["calls"])})
         answers.extend([f"## Scenario {idx}", scenario, "", result["answer"], ""])
 
-    memory_planner = SimplePlanner(state)
+    memory_planner = Planner(state)
     first = memory_planner.answer("How many units of SKU-1042 should I buy for C-EAST for the next 8 weeks?")
     follow_up = memory_planner.answer("What if the promotion runs two weeks longer?")
     answers.extend(["## Memory Demo", "Turn 1:", first["answer"], "", "Turn 2:", follow_up["answer"], ""])
@@ -661,7 +661,7 @@ Weekly sales + promotions + parent-beverage sales
 Data checks -> feature table -> nightly forecast batch
         |                         |
         v                         v
-Planner API/UI -> simple agent -> forecast tool + knowledge retrieval
+Planner API/UI -> planning agent -> forecast tool + knowledge retrieval
 ```
 
 I would compute forecasts nightly after weekly data is finalized, and also allow on-demand what-if forecasts for planner scenarios such as promotion changes. Nightly batch forecasts keep the planning UI fast and give teams a stable forecast snapshot. The model should retrain weekly after the newest sales week lands, with a holdout backtest check before replacing the current model.
@@ -674,15 +674,15 @@ Model monitoring should track SKU-level WAPE, forecast bias by category/cluster,
 def write_validation_checklist() -> None:
     text = """# Validation Checklist
 
-| Requirement | Simple v2 output |
+| Requirement | Output |
 |---|---|
 | A1 EDA | `eda_summary.md`, `plots/eda_*.png`, `eda_notebook.ipynb` |
-| A2 8-week forecasts | `main.py` function `forecast_sku`, `artifacts/simple_forecaster.joblib` |
+| A2 8-week forecasts | `main.py` function `forecast_sku`, `artifacts/forecaster.joblib` |
 | A2 promotions + parent beverage signals | `model_summary.csv` compares full model vs baseline |
 | A2 uncertainty | forecast rows include `lower_80` and `upper_80` from holdout residual percentiles |
 | A2 WAPE by SKU | `wape_by_sku.csv` |
 | A2 forecast plots | `plots/forecast_*.png` |
-| B1 three agents | `SimplePlanner`, forecasting tool, knowledge tool in `main.py` |
+| B1 three agents | `Planner`, forecasting tool, knowledge tool in `main.py` |
 | B2 LangChain tools | `StructuredTool.from_function(...)` in `main.py` |
 | B3 memory | memory demo in `agent_answers.md` |
 | B4 six scenarios | `agent_evaluation.csv`, `agent_answers.md` |
@@ -694,7 +694,7 @@ def write_validation_checklist() -> None:
 def write_eda_notebook() -> None:
     nb = {
         "cells": [
-            {"cell_type": "markdown", "metadata": {}, "source": ["# Simple EDA Notebook\n", "This runs the same EDA code as `main.py`."]},
+            {"cell_type": "markdown", "metadata": {}, "source": ["# EDA Notebook\n", "This runs the same EDA code as `main.py`."]},
             {"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [], "source": ["from main import load_data, make_features, run_eda\n", "data = load_data()\n", "df = make_features(data)\n", "run_eda(df)\n"]},
         ],
         "metadata": {"kernelspec": {"display_name": ".vip_venv", "language": "python", "name": "python3"}, "language_info": {"name": "python", "version": "3.11"}},
@@ -714,7 +714,7 @@ def main() -> None:
     write_production_notes()
     write_validation_checklist()
     write_eda_notebook()
-    print("Simple solution complete. See code/outputs.")
+    print("Solution complete. See code/outputs.")
     print(f"Full model WAPE: {state['overall_wape_full']:.3f}")
     print(f"Baseline WAPE: {state['overall_wape_baseline']:.3f}")
 

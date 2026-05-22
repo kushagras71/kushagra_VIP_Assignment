@@ -7,7 +7,7 @@ Weekly sales + promotions + parent-beverage sales
 Data checks -> feature table -> nightly forecast batch
         |                         |
         v                         v
-Planner API/UI -> simple agent -> forecast tool + knowledge retrieval
+Planner API/UI -> planning agent -> forecast tool + knowledge retrieval
 ```
 
 I would compute forecasts nightly after weekly data is finalized, and also allow on-demand what-if forecasts for planner scenarios such as promotion changes. Nightly batch forecasts keep the planning UI fast and give teams a stable forecast snapshot. The model should retrain weekly after the newest sales week lands, with a holdout backtest check before replacing the current model.

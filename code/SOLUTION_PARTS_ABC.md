@@ -9,10 +9,10 @@ This document explains the simplified solution in the same structure as the assi
 
 The goal is to help distributors plan branded merchandise purchases for the next 8 weeks. The solution uses historical merchandise sales, supplier promotions, SKU metadata, and parent-beverage sales to produce SKU x cluster forecasts. These forecasts are then wrapped in a small agentic decision-support layer that can answer planner questions in natural language.
 
-The implementation is intentionally simple:
+The implementation is organized as a compact development project:
 
 - One main script: `main.py`
-- One model artifact: `artifacts/simple_forecaster.joblib`
+- One model artifact: `artifacts/forecaster.joblib`
 - One output folder: `code/outputs/`
 - A small LangChain Core tool layer, without API keys or external LLM calls
 
@@ -50,7 +50,7 @@ The dataset contains:
 
 ### Demand Shape
 
-Overall weekly demand is uneven and skewed. Median weekly demand is `23` units, while the 90th percentile is `53` units. This means a simple flat average forecast would miss important high-demand weeks.
+Overall weekly demand is uneven and skewed. Median weekly demand is `23` units, while the 90th percentile is `53` units. This means a flat average forecast would miss important high-demand weeks.
 
 Category-level demand:
 
@@ -144,7 +144,7 @@ This choice is practical for this dataset because:
 
 ### Features Used
 
-The model uses simple, explainable features:
+The model uses focused, explainable features:
 
 Historical demand:
 
@@ -194,12 +194,12 @@ Evaluation outputs:
 
 ### Uncertainty
 
-The forecast includes a simple uncertainty interval:
+The forecast includes an uncertainty interval:
 
 - `lower_80`
 - `upper_80`
 
-These are generated from the 10th and 90th percentile residuals in the holdout period. This is not a perfect statistical interval, but it is simple, transparent, and appropriate for a prototype.
+These are generated from the 10th and 90th percentile residuals in the holdout period. This is not a perfect statistical interval, but it is transparent and appropriate for a prototype.
 
 ### Forecast Plot Examples
 
@@ -241,7 +241,7 @@ The system uses LangChain Core `StructuredTool` wrappers:
 - `forecast_merchandise_demand`
 - `retrieve_merchandise_knowledge`
 
-No API key or external LLM is required. The planner uses simple deterministic routing rules. This makes the project easy to run, debug, and explain.
+No API key or external LLM is required. The planner uses deterministic routing rules. This makes the project easy to run, debug, and explain.
 
 ## Forecasting Tool
 
@@ -443,7 +443,7 @@ Weekly sales + promotions + parent-beverage sales
 Data checks -> feature table -> nightly forecast batch
         |                         |
         v                         v
-Planner API/UI -> simple agent -> forecast tool + knowledge retrieval
+Planner API/UI -> planning agent -> forecast tool + knowledge retrieval
 ```
 
 ## Forecast Computation
@@ -493,7 +493,7 @@ From the project root:
 Expected final console output:
 
 ```text
-Simple solution complete. See code/outputs.
+Solution complete. See code/outputs.
 Full model WAPE: 0.164
 Baseline WAPE: 0.170
 ```
@@ -510,7 +510,7 @@ Code:
 
 Model artifact:
 
-- `code/artifacts/simple_forecaster.joblib`
+- `code/artifacts/forecaster.joblib`
 
 Outputs:
 
@@ -529,7 +529,7 @@ Outputs:
 
 1. The planner is deterministic rather than LLM-driven. This keeps the project runnable without API keys.
 2. The Random Forest is chosen for simplicity and robustness, not because it is the only possible model.
-3. Forecast intervals use holdout residual percentiles, which are simple and explainable.
+3. Forecast intervals use holdout residual percentiles, which are transparent and explainable.
 4. The agentic layer is a prototype. In production, the planner could be replaced with a stronger LangGraph or LLM-based router.
 5. The safety-stock calculation is simplified but follows the provided policy direction.
 
@@ -537,7 +537,7 @@ Outputs:
 
 # Final Recommendation
 
-This version is intentionally simple and practical. It demonstrates that:
+This version is intentionally practical. It demonstrates that:
 
 - demand was explored before modeling,
 - promotions and parent-beverage demand are useful signals,

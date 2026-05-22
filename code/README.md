@@ -1,6 +1,6 @@
-# Simple v2 Solution
+# Demand Forecasting Solution
 
-This is the simplified version of the assessment solution.
+This folder contains the assessment solution.
 
 Everything important is in one file:
 
@@ -11,7 +11,7 @@ main.py
 The flow is:
 
 1. Load the CSV files.
-2. Build a simple SKU x cluster x week feature table.
+2. Build a SKU x cluster x week feature table.
 3. Run EDA and save short notes/plots.
 4. Train a Random Forest model.
 5. Compare the full model against a baseline without promotion and parent-beverage signals.
@@ -55,12 +55,12 @@ Important files:
 Model artifact:
 
 ```text
-code/artifacts/simple_forecaster.joblib
+code/artifacts/forecaster.joblib
 ```
 
 ## Model Choice
 
-I used a Random Forest because it is simple and works well for short, noisy, promotion-driven weekly sales data. Features are intentionally basic:
+I used a Random Forest because it works well for short, noisy, promotion-driven weekly sales data. Features are intentionally focused:
 
 - lag demand: 1, 2, and 4 weeks
 - 4-week rolling average
@@ -70,7 +70,7 @@ I used a Random Forest because it is simple and works well for short, noisy, pro
 - promotion flag/type
 - parent-beverage units
 
-Uncertainty is simple too: the forecast interval uses the 10th and 90th percentile holdout residuals.
+Uncertainty uses the 10th and 90th percentile holdout residuals.
 
 ## Agent Design
 

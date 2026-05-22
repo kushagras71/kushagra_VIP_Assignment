@@ -1,6 +1,6 @@
 # Model Notes
 
-I used a Random Forest regression model with a few simple features:
+I used a Random Forest regression model with a compact feature set:
 
 - recent SKU x cluster demand lags: 1, 2, and 4 weeks,
 - a 4-week rolling average,
@@ -17,4 +17,4 @@ Holdout evaluation uses the last 8 historical weeks: 2026-03-23 to 2026-05-11.
 
 The full model is better, so the available signals are useful.
 
-Uncertainty: forecast intervals use the 10th and 90th percentile residuals from the holdout period. This is simple, explainable, and appropriate for a prototype.
+Uncertainty: forecast intervals use the 10th and 90th percentile residuals from the holdout period. This is transparent, explainable, and appropriate for a prototype.
