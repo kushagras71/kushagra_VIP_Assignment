@@ -1,0 +1,937 @@
+week_start,parent_brand,cluster_id,units_sold
+2024-11-18,Black Pine Whiskey,C-EAST,19942
+2024-11-18,Black Pine Whiskey,C-WEST,16979
+2024-11-18,Crestmark Bourbon,C-EAST,19605
+2024-11-18,Crestmark Bourbon,C-WEST,17265
+2024-11-18,Maple Hollow Ale,C-EAST,28898
+2024-11-18,Maple Hollow Ale,C-WEST,15862
+2024-11-18,Northwind Lager,C-EAST,15464
+2024-11-18,Northwind Lager,C-WEST,7904
+2024-11-18,Riverbend IPA,C-EAST,25053
+2024-11-18,Riverbend IPA,C-WEST,20894
+2024-11-18,Solano Tequila,C-EAST,21180
+2024-11-18,Solano Tequila,C-WEST,13800
+2024-11-25,Black Pine Whiskey,C-EAST,19672
+2024-11-25,Black Pine Whiskey,C-WEST,17836
+2024-11-25,Crestmark Bourbon,C-EAST,17027
+2024-11-25,Crestmark Bourbon,C-WEST,16809
+2024-11-25,Maple Hollow Ale,C-EAST,25645
+2024-11-25,Maple Hollow Ale,C-WEST,13203
+2024-11-25,Northwind Lager,C-EAST,15462
+2024-11-25,Northwind Lager,C-WEST,8959
+2024-11-25,Riverbend IPA,C-EAST,21069
+2024-11-25,Riverbend IPA,C-WEST,20738
+2024-11-25,Solano Tequila,C-EAST,19599
+2024-11-25,Solano Tequila,C-WEST,13387
+2024-12-02,Black Pine Whiskey,C-EAST,19176
+2024-12-02,Black Pine Whiskey,C-WEST,18723
+2024-12-02,Crestmark Bourbon,C-EAST,16134
+2024-12-02,Crestmark Bourbon,C-WEST,23995
+2024-12-02,Maple Hollow Ale,C-EAST,34980
+2024-12-02,Maple Hollow Ale,C-WEST,11922
+2024-12-02,Northwind Lager,C-EAST,18952
+2024-12-02,Northwind Lager,C-WEST,11727
+2024-12-02,Riverbend IPA,C-EAST,18944
+2024-12-02,Riverbend IPA,C-WEST,18605
+2024-12-02,Solano Tequila,C-EAST,16072
+2024-12-02,Solano Tequila,C-WEST,14801
+2024-12-09,Black Pine Whiskey,C-EAST,17206
+2024-12-09,Black Pine Whiskey,C-WEST,16148
+2024-12-09,Crestmark Bourbon,C-EAST,16234
+2024-12-09,Crestmark Bourbon,C-WEST,18432
+2024-12-09,Maple Hollow Ale,C-EAST,29739
+2024-12-09,Maple Hollow Ale,C-WEST,11234
+2024-12-09,Northwind Lager,C-EAST,17746
+2024-12-09,Northwind Lager,C-WEST,9474
+2024-12-09,Riverbend IPA,C-EAST,17739
+2024-12-09,Riverbend IPA,C-WEST,17970
+2024-12-09,Solano Tequila,C-EAST,11048
+2024-12-09,Solano Tequila,C-WEST,16054
+2024-12-16,Black Pine Whiskey,C-EAST,19446
+2024-12-16,Black Pine Whiskey,C-WEST,14211
+2024-12-16,Crestmark Bourbon,C-EAST,19425
+2024-12-16,Crestmark Bourbon,C-WEST,21146
+2024-12-16,Maple Hollow Ale,C-EAST,31131
+2024-12-16,Maple Hollow Ale,C-WEST,9995
+2024-12-16,Northwind Lager,C-EAST,19590
+2024-12-16,Northwind Lager,C-WEST,10133
+2024-12-16,Riverbend IPA,C-EAST,22849
+2024-12-16,Riverbend IPA,C-WEST,20522
+2024-12-16,Solano Tequila,C-EAST,14410
+2024-12-16,Solano Tequila,C-WEST,15895
+2024-12-23,Black Pine Whiskey,C-EAST,20760
+2024-12-23,Black Pine Whiskey,C-WEST,17021
+2024-12-23,Crestmark Bourbon,C-EAST,18093
+2024-12-23,Crestmark Bourbon,C-WEST,16382
+2024-12-23,Maple Hollow Ale,C-EAST,25897
+2024-12-23,Maple Hollow Ale,C-WEST,11593
+2024-12-23,Northwind Lager,C-EAST,12967
+2024-12-23,Northwind Lager,C-WEST,9406
+2024-12-23,Riverbend IPA,C-EAST,20814
+2024-12-23,Riverbend IPA,C-WEST,12728
+2024-12-23,Solano Tequila,C-EAST,19041
+2024-12-23,Solano Tequila,C-WEST,15227
+2024-12-30,Black Pine Whiskey,C-EAST,19560
+2024-12-30,Black Pine Whiskey,C-WEST,15732
+2024-12-30,Crestmark Bourbon,C-EAST,28391
+2024-12-30,Crestmark Bourbon,C-WEST,16955
+2024-12-30,Maple Hollow Ale,C-EAST,28485
+2024-12-30,Maple Hollow Ale,C-WEST,10932
+2024-12-30,Northwind Lager,C-EAST,13045
+2024-12-30,Northwind Lager,C-WEST,8499
+2024-12-30,Riverbend IPA,C-EAST,18065
+2024-12-30,Riverbend IPA,C-WEST,14204
+2024-12-30,Solano Tequila,C-EAST,17832
+2024-12-30,Solano Tequila,C-WEST,16416
+2025-01-06,Black Pine Whiskey,C-EAST,17066
+2025-01-06,Black Pine Whiskey,C-WEST,16031
+2025-01-06,Crestmark Bourbon,C-EAST,17926
+2025-01-06,Crestmark Bourbon,C-WEST,14674
+2025-01-06,Maple Hollow Ale,C-EAST,25012
+2025-01-06,Maple Hollow Ale,C-WEST,13613
+2025-01-06,Northwind Lager,C-EAST,13822
+2025-01-06,Northwind Lager,C-WEST,7424
+2025-01-06,Riverbend IPA,C-EAST,21558
+2025-01-06,Riverbend IPA,C-WEST,15339
+2025-01-06,Solano Tequila,C-EAST,25661
+2025-01-06,Solano Tequila,C-WEST,14277
+2025-01-13,Black Pine Whiskey,C-EAST,26679
+2025-01-13,Black Pine Whiskey,C-WEST,22063
+2025-01-13,Crestmark Bourbon,C-EAST,20387
+2025-01-13,Crestmark Bourbon,C-WEST,15409
+2025-01-13,Maple Hollow Ale,C-EAST,23363
+2025-01-13,Maple Hollow Ale,C-WEST,13625
+2025-01-13,Northwind Lager,C-EAST,19136
+2025-01-13,Northwind Lager,C-WEST,10495
+2025-01-13,Riverbend IPA,C-EAST,16055
+2025-01-13,Riverbend IPA,C-WEST,17116
+2025-01-13,Solano Tequila,C-EAST,28593
+2025-01-13,Solano Tequila,C-WEST,13171
+2025-01-20,Black Pine Whiskey,C-EAST,19807
+2025-01-20,Black Pine Whiskey,C-WEST,11686
+2025-01-20,Crestmark Bourbon,C-EAST,13177
+2025-01-20,Crestmark Bourbon,C-WEST,14770
+2025-01-20,Maple Hollow Ale,C-EAST,27745
+2025-01-20,Maple Hollow Ale,C-WEST,13463
+2025-01-20,Northwind Lager,C-EAST,16705
+2025-01-20,Northwind Lager,C-WEST,9107
+2025-01-20,Riverbend IPA,C-EAST,18203
+2025-01-20,Riverbend IPA,C-WEST,19446
+2025-01-20,Solano Tequila,C-EAST,20945
+2025-01-20,Solano Tequila,C-WEST,11632
+2025-01-27,Black Pine Whiskey,C-EAST,16279
+2025-01-27,Black Pine Whiskey,C-WEST,16214
+2025-01-27,Crestmark Bourbon,C-EAST,14889
+2025-01-27,Crestmark Bourbon,C-WEST,18054
+2025-01-27,Maple Hollow Ale,C-EAST,22315
+2025-01-27,Maple Hollow Ale,C-WEST,12749
+2025-01-27,Northwind Lager,C-EAST,17896
+2025-01-27,Northwind Lager,C-WEST,10533
+2025-01-27,Riverbend IPA,C-EAST,17937
+2025-01-27,Riverbend IPA,C-WEST,18563
+2025-01-27,Solano Tequila,C-EAST,14059
+2025-01-27,Solano Tequila,C-WEST,11859
+2025-02-03,Black Pine Whiskey,C-EAST,23610
+2025-02-03,Black Pine Whiskey,C-WEST,13189
+2025-02-03,Crestmark Bourbon,C-EAST,18275
+2025-02-03,Crestmark Bourbon,C-WEST,18523
+2025-02-03,Maple Hollow Ale,C-EAST,36889
+2025-02-03,Maple Hollow Ale,C-WEST,10347
+2025-02-03,Northwind Lager,C-EAST,20323
+2025-02-03,Northwind Lager,C-WEST,9655
+2025-02-03,Riverbend IPA,C-EAST,20582
+2025-02-03,Riverbend IPA,C-WEST,18835
+2025-02-03,Solano Tequila,C-EAST,15623
+2025-02-03,Solano Tequila,C-WEST,15386
+2025-02-10,Black Pine Whiskey,C-EAST,20801
+2025-02-10,Black Pine Whiskey,C-WEST,13892
+2025-02-10,Crestmark Bourbon,C-EAST,19628
+2025-02-10,Crestmark Bourbon,C-WEST,20579
+2025-02-10,Maple Hollow Ale,C-EAST,36789
+2025-02-10,Maple Hollow Ale,C-WEST,9896
+2025-02-10,Northwind Lager,C-EAST,18787
+2025-02-10,Northwind Lager,C-WEST,10128
+2025-02-10,Riverbend IPA,C-EAST,17937
+2025-02-10,Riverbend IPA,C-WEST,17842
+2025-02-10,Solano Tequila,C-EAST,13788
+2025-02-10,Solano Tequila,C-WEST,14001
+2025-02-17,Black Pine Whiskey,C-EAST,20891
+2025-02-17,Black Pine Whiskey,C-WEST,14968
+2025-02-17,Crestmark Bourbon,C-EAST,19314
+2025-02-17,Crestmark Bourbon,C-WEST,21447
+2025-02-17,Maple Hollow Ale,C-EAST,38905
+2025-02-17,Maple Hollow Ale,C-WEST,10871
+2025-02-17,Northwind Lager,C-EAST,15763
+2025-02-17,Northwind Lager,C-WEST,7310
+2025-02-17,Riverbend IPA,C-EAST,22734
+2025-02-17,Riverbend IPA,C-WEST,19671
+2025-02-17,Solano Tequila,C-EAST,16966
+2025-02-17,Solano Tequila,C-WEST,13068
+2025-02-24,Black Pine Whiskey,C-EAST,16383
+2025-02-24,Black Pine Whiskey,C-WEST,16076
+2025-02-24,Crestmark Bourbon,C-EAST,16167
+2025-02-24,Crestmark Bourbon,C-WEST,17845
+2025-02-24,Maple Hollow Ale,C-EAST,30288
+2025-02-24,Maple Hollow Ale,C-WEST,11821
+2025-02-24,Northwind Lager,C-EAST,17596
+2025-02-24,Northwind Lager,C-WEST,7892
+2025-02-24,Riverbend IPA,C-EAST,17737
+2025-02-24,Riverbend IPA,C-WEST,14388
+2025-02-24,Solano Tequila,C-EAST,17271
+2025-02-24,Solano Tequila,C-WEST,13555
+2025-03-03,Black Pine Whiskey,C-EAST,16702
+2025-03-03,Black Pine Whiskey,C-WEST,16043
+2025-03-03,Crestmark Bourbon,C-EAST,16224
+2025-03-03,Crestmark Bourbon,C-WEST,18448
+2025-03-03,Maple Hollow Ale,C-EAST,30265
+2025-03-03,Maple Hollow Ale,C-WEST,12450
+2025-03-03,Northwind Lager,C-EAST,20459
+2025-03-03,Northwind Lager,C-WEST,10624
+2025-03-03,Riverbend IPA,C-EAST,20571
+2025-03-03,Riverbend IPA,C-WEST,15858
+2025-03-03,Solano Tequila,C-EAST,18928
+2025-03-03,Solano Tequila,C-WEST,13198
+2025-03-10,Black Pine Whiskey,C-EAST,18419
+2025-03-10,Black Pine Whiskey,C-WEST,14700
+2025-03-10,Crestmark Bourbon,C-EAST,16043
+2025-03-10,Crestmark Bourbon,C-WEST,12922
+2025-03-10,Maple Hollow Ale,C-EAST,27635
+2025-03-10,Maple Hollow Ale,C-WEST,15558
+2025-03-10,Northwind Lager,C-EAST,18052
+2025-03-10,Northwind Lager,C-WEST,10660
+2025-03-10,Riverbend IPA,C-EAST,15922
+2025-03-10,Riverbend IPA,C-WEST,20280
+2025-03-10,Solano Tequila,C-EAST,20274
+2025-03-10,Solano Tequila,C-WEST,12842
+2025-03-17,Black Pine Whiskey,C-EAST,15201
+2025-03-17,Black Pine Whiskey,C-WEST,11208
+2025-03-17,Crestmark Bourbon,C-EAST,17789
+2025-03-17,Crestmark Bourbon,C-WEST,12101
+2025-03-17,Maple Hollow Ale,C-EAST,25928
+2025-03-17,Maple Hollow Ale,C-WEST,12147
+2025-03-17,Northwind Lager,C-EAST,12981
+2025-03-17,Northwind Lager,C-WEST,10106
+2025-03-17,Riverbend IPA,C-EAST,27704
+2025-03-17,Riverbend IPA,C-WEST,18407
+2025-03-17,Solano Tequila,C-EAST,17486
+2025-03-17,Solano Tequila,C-WEST,10815
+2025-03-24,Black Pine Whiskey,C-EAST,19018
+2025-03-24,Black Pine Whiskey,C-WEST,12989
+2025-03-24,Crestmark Bourbon,C-EAST,21758
+2025-03-24,Crestmark Bourbon,C-WEST,12903
+2025-03-24,Maple Hollow Ale,C-EAST,27461
+2025-03-24,Maple Hollow Ale,C-WEST,8929
+2025-03-24,Northwind Lager,C-EAST,13568
+2025-03-24,Northwind Lager,C-WEST,9566
+2025-03-24,Riverbend IPA,C-EAST,17120
+2025-03-24,Riverbend IPA,C-WEST,27789
+2025-03-24,Solano Tequila,C-EAST,15518
+2025-03-24,Solano Tequila,C-WEST,12874
+2025-03-31,Black Pine Whiskey,C-EAST,15172
+2025-03-31,Black Pine Whiskey,C-WEST,15119
+2025-03-31,Crestmark Bourbon,C-EAST,18591
+2025-03-31,Crestmark Bourbon,C-WEST,15804
+2025-03-31,Maple Hollow Ale,C-EAST,27830
+2025-03-31,Maple Hollow Ale,C-WEST,10437
+2025-03-31,Northwind Lager,C-EAST,16766
+2025-03-31,Northwind Lager,C-WEST,13885
+2025-03-31,Riverbend IPA,C-EAST,22118
+2025-03-31,Riverbend IPA,C-WEST,22611
+2025-03-31,Solano Tequila,C-EAST,11617
+2025-03-31,Solano Tequila,C-WEST,12110
+2025-04-07,Black Pine Whiskey,C-EAST,13525
+2025-04-07,Black Pine Whiskey,C-WEST,12963
+2025-04-07,Crestmark Bourbon,C-EAST,17633
+2025-04-07,Crestmark Bourbon,C-WEST,18784
+2025-04-07,Maple Hollow Ale,C-EAST,28292
+2025-04-07,Maple Hollow Ale,C-WEST,11125
+2025-04-07,Northwind Lager,C-EAST,22794
+2025-04-07,Northwind Lager,C-WEST,7518
+2025-04-07,Riverbend IPA,C-EAST,26573
+2025-04-07,Riverbend IPA,C-WEST,19660
+2025-04-07,Solano Tequila,C-EAST,12896
+2025-04-07,Solano Tequila,C-WEST,10834
+2025-04-14,Black Pine Whiskey,C-EAST,17292
+2025-04-14,Black Pine Whiskey,C-WEST,10900
+2025-04-14,Crestmark Bourbon,C-EAST,15347
+2025-04-14,Crestmark Bourbon,C-WEST,18020
+2025-04-14,Maple Hollow Ale,C-EAST,30641
+2025-04-14,Maple Hollow Ale,C-WEST,11854
+2025-04-14,Northwind Lager,C-EAST,21533
+2025-04-14,Northwind Lager,C-WEST,9967
+2025-04-14,Riverbend IPA,C-EAST,23797
+2025-04-14,Riverbend IPA,C-WEST,18350
+2025-04-14,Solano Tequila,C-EAST,16269
+2025-04-14,Solano Tequila,C-WEST,11904
+2025-04-21,Black Pine Whiskey,C-EAST,30472
+2025-04-21,Black Pine Whiskey,C-WEST,15898
+2025-04-21,Crestmark Bourbon,C-EAST,15621
+2025-04-21,Crestmark Bourbon,C-WEST,16367
+2025-04-21,Maple Hollow Ale,C-EAST,32663
+2025-04-21,Maple Hollow Ale,C-WEST,11417
+2025-04-21,Northwind Lager,C-EAST,20102
+2025-04-21,Northwind Lager,C-WEST,8950
+2025-04-21,Riverbend IPA,C-EAST,23447
+2025-04-21,Riverbend IPA,C-WEST,15299
+2025-04-21,Solano Tequila,C-EAST,18585
+2025-04-21,Solano Tequila,C-WEST,14302
+2025-04-28,Black Pine Whiskey,C-EAST,17034
+2025-04-28,Black Pine Whiskey,C-WEST,14653
+2025-04-28,Crestmark Bourbon,C-EAST,15554
+2025-04-28,Crestmark Bourbon,C-WEST,16429
+2025-04-28,Maple Hollow Ale,C-EAST,31082
+2025-04-28,Maple Hollow Ale,C-WEST,17554
+2025-04-28,Northwind Lager,C-EAST,16057
+2025-04-28,Northwind Lager,C-WEST,9963
+2025-04-28,Riverbend IPA,C-EAST,21974
+2025-04-28,Riverbend IPA,C-WEST,19059
+2025-04-28,Solano Tequila,C-EAST,21792
+2025-04-28,Solano Tequila,C-WEST,17923
+2025-05-05,Black Pine Whiskey,C-EAST,18700
+2025-05-05,Black Pine Whiskey,C-WEST,13090
+2025-05-05,Crestmark Bourbon,C-EAST,25712
+2025-05-05,Crestmark Bourbon,C-WEST,15723
+2025-05-05,Maple Hollow Ale,C-EAST,36796
+2025-05-05,Maple Hollow Ale,C-WEST,14114
+2025-05-05,Northwind Lager,C-EAST,15671
+2025-05-05,Northwind Lager,C-WEST,11867
+2025-05-05,Riverbend IPA,C-EAST,20090
+2025-05-05,Riverbend IPA,C-WEST,15872
+2025-05-05,Solano Tequila,C-EAST,16269
+2025-05-05,Solano Tequila,C-WEST,14484
+2025-05-12,Black Pine Whiskey,C-EAST,14990
+2025-05-12,Black Pine Whiskey,C-WEST,13885
+2025-05-12,Crestmark Bourbon,C-EAST,18138
+2025-05-12,Crestmark Bourbon,C-WEST,15041
+2025-05-12,Maple Hollow Ale,C-EAST,29447
+2025-05-12,Maple Hollow Ale,C-WEST,14625
+2025-05-12,Northwind Lager,C-EAST,19437
+2025-05-12,Northwind Lager,C-WEST,10607
+2025-05-12,Riverbend IPA,C-EAST,19195
+2025-05-12,Riverbend IPA,C-WEST,18951
+2025-05-12,Solano Tequila,C-EAST,18462
+2025-05-12,Solano Tequila,C-WEST,14672
+2025-05-19,Black Pine Whiskey,C-EAST,10934
+2025-05-19,Black Pine Whiskey,C-WEST,17574
+2025-05-19,Crestmark Bourbon,C-EAST,14231
+2025-05-19,Crestmark Bourbon,C-WEST,13580
+2025-05-19,Maple Hollow Ale,C-EAST,30265
+2025-05-19,Maple Hollow Ale,C-WEST,13160
+2025-05-19,Northwind Lager,C-EAST,16185
+2025-05-19,Northwind Lager,C-WEST,10383
+2025-05-19,Riverbend IPA,C-EAST,18851
+2025-05-19,Riverbend IPA,C-WEST,18440
+2025-05-19,Solano Tequila,C-EAST,15757
+2025-05-19,Solano Tequila,C-WEST,12152
+2025-05-26,Black Pine Whiskey,C-EAST,15722
+2025-05-26,Black Pine Whiskey,C-WEST,11331
+2025-05-26,Crestmark Bourbon,C-EAST,16128
+2025-05-26,Crestmark Bourbon,C-WEST,13029
+2025-05-26,Maple Hollow Ale,C-EAST,33009
+2025-05-26,Maple Hollow Ale,C-WEST,11317
+2025-05-26,Northwind Lager,C-EAST,21657
+2025-05-26,Northwind Lager,C-WEST,8633
+2025-05-26,Riverbend IPA,C-EAST,23938
+2025-05-26,Riverbend IPA,C-WEST,20691
+2025-05-26,Solano Tequila,C-EAST,14033
+2025-05-26,Solano Tequila,C-WEST,9386
+2025-06-02,Black Pine Whiskey,C-EAST,17901
+2025-06-02,Black Pine Whiskey,C-WEST,11002
+2025-06-02,Crestmark Bourbon,C-EAST,15221
+2025-06-02,Crestmark Bourbon,C-WEST,13093
+2025-06-02,Maple Hollow Ale,C-EAST,35675
+2025-06-02,Maple Hollow Ale,C-WEST,11398
+2025-06-02,Northwind Lager,C-EAST,19039
+2025-06-02,Northwind Lager,C-WEST,8852
+2025-06-02,Riverbend IPA,C-EAST,22462
+2025-06-02,Riverbend IPA,C-WEST,21031
+2025-06-02,Solano Tequila,C-EAST,13244
+2025-06-02,Solano Tequila,C-WEST,11823
+2025-06-09,Black Pine Whiskey,C-EAST,19154
+2025-06-09,Black Pine Whiskey,C-WEST,12836
+2025-06-09,Crestmark Bourbon,C-EAST,16548
+2025-06-09,Crestmark Bourbon,C-WEST,13038
+2025-06-09,Maple Hollow Ale,C-EAST,35154
+2025-06-09,Maple Hollow Ale,C-WEST,19155
+2025-06-09,Northwind Lager,C-EAST,15427
+2025-06-09,Northwind Lager,C-WEST,9207
+2025-06-09,Riverbend IPA,C-EAST,26023
+2025-06-09,Riverbend IPA,C-WEST,29177
+2025-06-09,Solano Tequila,C-EAST,14808
+2025-06-09,Solano Tequila,C-WEST,12801
+2025-06-16,Black Pine Whiskey,C-EAST,16955
+2025-06-16,Black Pine Whiskey,C-WEST,11961
+2025-06-16,Crestmark Bourbon,C-EAST,19870
+2025-06-16,Crestmark Bourbon,C-WEST,15184
+2025-06-16,Maple Hollow Ale,C-EAST,34761
+2025-06-16,Maple Hollow Ale,C-WEST,13574
+2025-06-16,Northwind Lager,C-EAST,16483
+2025-06-16,Northwind Lager,C-WEST,10233
+2025-06-16,Riverbend IPA,C-EAST,25201
+2025-06-16,Riverbend IPA,C-WEST,23775
+2025-06-16,Solano Tequila,C-EAST,19962
+2025-06-16,Solano Tequila,C-WEST,14511
+2025-06-23,Black Pine Whiskey,C-EAST,15936
+2025-06-23,Black Pine Whiskey,C-WEST,13783
+2025-06-23,Crestmark Bourbon,C-EAST,19150
+2025-06-23,Crestmark Bourbon,C-WEST,13975
+2025-06-23,Maple Hollow Ale,C-EAST,49767
+2025-06-23,Maple Hollow Ale,C-WEST,14872
+2025-06-23,Northwind Lager,C-EAST,18329
+2025-06-23,Northwind Lager,C-WEST,12886
+2025-06-23,Riverbend IPA,C-EAST,22341
+2025-06-23,Riverbend IPA,C-WEST,19755
+2025-06-23,Solano Tequila,C-EAST,23120
+2025-06-23,Solano Tequila,C-WEST,14432
+2025-06-30,Black Pine Whiskey,C-EAST,12088
+2025-06-30,Black Pine Whiskey,C-WEST,14371
+2025-06-30,Crestmark Bourbon,C-EAST,14742
+2025-06-30,Crestmark Bourbon,C-WEST,17933
+2025-06-30,Maple Hollow Ale,C-EAST,40539
+2025-06-30,Maple Hollow Ale,C-WEST,21835
+2025-06-30,Northwind Lager,C-EAST,19043
+2025-06-30,Northwind Lager,C-WEST,13801
+2025-06-30,Riverbend IPA,C-EAST,23313
+2025-06-30,Riverbend IPA,C-WEST,21493
+2025-06-30,Solano Tequila,C-EAST,17266
+2025-06-30,Solano Tequila,C-WEST,13810
+2025-07-07,Black Pine Whiskey,C-EAST,14566
+2025-07-07,Black Pine Whiskey,C-WEST,17576
+2025-07-07,Crestmark Bourbon,C-EAST,12192
+2025-07-07,Crestmark Bourbon,C-WEST,18060
+2025-07-07,Maple Hollow Ale,C-EAST,38528
+2025-07-07,Maple Hollow Ale,C-WEST,14307
+2025-07-07,Northwind Lager,C-EAST,22817
+2025-07-07,Northwind Lager,C-WEST,10001
+2025-07-07,Riverbend IPA,C-EAST,22663
+2025-07-07,Riverbend IPA,C-WEST,16837
+2025-07-07,Solano Tequila,C-EAST,18104
+2025-07-07,Solano Tequila,C-WEST,12256
+2025-07-14,Black Pine Whiskey,C-EAST,20468
+2025-07-14,Black Pine Whiskey,C-WEST,16452
+2025-07-14,Crestmark Bourbon,C-EAST,15338
+2025-07-14,Crestmark Bourbon,C-WEST,17017
+2025-07-14,Maple Hollow Ale,C-EAST,31253
+2025-07-14,Maple Hollow Ale,C-WEST,19520
+2025-07-14,Northwind Lager,C-EAST,19174
+2025-07-14,Northwind Lager,C-WEST,8973
+2025-07-14,Riverbend IPA,C-EAST,18761
+2025-07-14,Riverbend IPA,C-WEST,17935
+2025-07-14,Solano Tequila,C-EAST,14191
+2025-07-14,Solano Tequila,C-WEST,13836
+2025-07-21,Black Pine Whiskey,C-EAST,16553
+2025-07-21,Black Pine Whiskey,C-WEST,15283
+2025-07-21,Crestmark Bourbon,C-EAST,16416
+2025-07-21,Crestmark Bourbon,C-WEST,15900
+2025-07-21,Maple Hollow Ale,C-EAST,36158
+2025-07-21,Maple Hollow Ale,C-WEST,13269
+2025-07-21,Northwind Lager,C-EAST,16505
+2025-07-21,Northwind Lager,C-WEST,7788
+2025-07-21,Riverbend IPA,C-EAST,20735
+2025-07-21,Riverbend IPA,C-WEST,19981
+2025-07-21,Solano Tequila,C-EAST,13918
+2025-07-21,Solano Tequila,C-WEST,13339
+2025-07-28,Black Pine Whiskey,C-EAST,16894
+2025-07-28,Black Pine Whiskey,C-WEST,13223
+2025-07-28,Crestmark Bourbon,C-EAST,18824
+2025-07-28,Crestmark Bourbon,C-WEST,15635
+2025-07-28,Maple Hollow Ale,C-EAST,28750
+2025-07-28,Maple Hollow Ale,C-WEST,12005
+2025-07-28,Northwind Lager,C-EAST,16388
+2025-07-28,Northwind Lager,C-WEST,9753
+2025-07-28,Riverbend IPA,C-EAST,25228
+2025-07-28,Riverbend IPA,C-WEST,19365
+2025-07-28,Solano Tequila,C-EAST,14614
+2025-07-28,Solano Tequila,C-WEST,13899
+2025-08-04,Black Pine Whiskey,C-EAST,14584
+2025-08-04,Black Pine Whiskey,C-WEST,13859
+2025-08-04,Crestmark Bourbon,C-EAST,18160
+2025-08-04,Crestmark Bourbon,C-WEST,10644
+2025-08-04,Maple Hollow Ale,C-EAST,27779
+2025-08-04,Maple Hollow Ale,C-WEST,10950
+2025-08-04,Northwind Lager,C-EAST,17022
+2025-08-04,Northwind Lager,C-WEST,10562
+2025-08-04,Riverbend IPA,C-EAST,25789
+2025-08-04,Riverbend IPA,C-WEST,23359
+2025-08-04,Solano Tequila,C-EAST,18883
+2025-08-04,Solano Tequila,C-WEST,13350
+2025-08-11,Black Pine Whiskey,C-EAST,14819
+2025-08-11,Black Pine Whiskey,C-WEST,11423
+2025-08-11,Crestmark Bourbon,C-EAST,17757
+2025-08-11,Crestmark Bourbon,C-WEST,12798
+2025-08-11,Maple Hollow Ale,C-EAST,27735
+2025-08-11,Maple Hollow Ale,C-WEST,14539
+2025-08-11,Northwind Lager,C-EAST,21853
+2025-08-11,Northwind Lager,C-WEST,11682
+2025-08-11,Riverbend IPA,C-EAST,28526
+2025-08-11,Riverbend IPA,C-WEST,21547
+2025-08-11,Solano Tequila,C-EAST,17170
+2025-08-11,Solano Tequila,C-WEST,13937
+2025-08-18,Black Pine Whiskey,C-EAST,17579
+2025-08-18,Black Pine Whiskey,C-WEST,12809
+2025-08-18,Crestmark Bourbon,C-EAST,14797
+2025-08-18,Crestmark Bourbon,C-WEST,15376
+2025-08-18,Maple Hollow Ale,C-EAST,29881
+2025-08-18,Maple Hollow Ale,C-WEST,22909
+2025-08-18,Northwind Lager,C-EAST,18381
+2025-08-18,Northwind Lager,C-WEST,10245
+2025-08-18,Riverbend IPA,C-EAST,22291
+2025-08-18,Riverbend IPA,C-WEST,24650
+2025-08-18,Solano Tequila,C-EAST,19354
+2025-08-18,Solano Tequila,C-WEST,13263
+2025-08-25,Black Pine Whiskey,C-EAST,20142
+2025-08-25,Black Pine Whiskey,C-WEST,14086
+2025-08-25,Crestmark Bourbon,C-EAST,15264
+2025-08-25,Crestmark Bourbon,C-WEST,13513
+2025-08-25,Maple Hollow Ale,C-EAST,29702
+2025-08-25,Maple Hollow Ale,C-WEST,16035
+2025-08-25,Northwind Lager,C-EAST,19145
+2025-08-25,Northwind Lager,C-WEST,9174
+2025-08-25,Riverbend IPA,C-EAST,19160
+2025-08-25,Riverbend IPA,C-WEST,20127
+2025-08-25,Solano Tequila,C-EAST,21838
+2025-08-25,Solano Tequila,C-WEST,14378
+2025-09-01,Black Pine Whiskey,C-EAST,27636
+2025-09-01,Black Pine Whiskey,C-WEST,18128
+2025-09-01,Crestmark Bourbon,C-EAST,15781
+2025-09-01,Crestmark Bourbon,C-WEST,17853
+2025-09-01,Maple Hollow Ale,C-EAST,28856
+2025-09-01,Maple Hollow Ale,C-WEST,13143
+2025-09-01,Northwind Lager,C-EAST,16782
+2025-09-01,Northwind Lager,C-WEST,9291
+2025-09-01,Riverbend IPA,C-EAST,17491
+2025-09-01,Riverbend IPA,C-WEST,17062
+2025-09-01,Solano Tequila,C-EAST,16707
+2025-09-01,Solano Tequila,C-WEST,15660
+2025-09-08,Black Pine Whiskey,C-EAST,18112
+2025-09-08,Black Pine Whiskey,C-WEST,15589
+2025-09-08,Crestmark Bourbon,C-EAST,21050
+2025-09-08,Crestmark Bourbon,C-WEST,17777
+2025-09-08,Maple Hollow Ale,C-EAST,35260
+2025-09-08,Maple Hollow Ale,C-WEST,14817
+2025-09-08,Northwind Lager,C-EAST,15632
+2025-09-08,Northwind Lager,C-WEST,10159
+2025-09-08,Riverbend IPA,C-EAST,20703
+2025-09-08,Riverbend IPA,C-WEST,15120
+2025-09-08,Solano Tequila,C-EAST,15224
+2025-09-08,Solano Tequila,C-WEST,16873
+2025-09-15,Black Pine Whiskey,C-EAST,15731
+2025-09-15,Black Pine Whiskey,C-WEST,13825
+2025-09-15,Crestmark Bourbon,C-EAST,16830
+2025-09-15,Crestmark Bourbon,C-WEST,18170
+2025-09-15,Maple Hollow Ale,C-EAST,35940
+2025-09-15,Maple Hollow Ale,C-WEST,12791
+2025-09-15,Northwind Lager,C-EAST,18625
+2025-09-15,Northwind Lager,C-WEST,9349
+2025-09-15,Riverbend IPA,C-EAST,23964
+2025-09-15,Riverbend IPA,C-WEST,17698
+2025-09-15,Solano Tequila,C-EAST,15044
+2025-09-15,Solano Tequila,C-WEST,15438
+2025-09-22,Black Pine Whiskey,C-EAST,14083
+2025-09-22,Black Pine Whiskey,C-WEST,17082
+2025-09-22,Crestmark Bourbon,C-EAST,17419
+2025-09-22,Crestmark Bourbon,C-WEST,28651
+2025-09-22,Maple Hollow Ale,C-EAST,31933
+2025-09-22,Maple Hollow Ale,C-WEST,9116
+2025-09-22,Northwind Lager,C-EAST,19934
+2025-09-22,Northwind Lager,C-WEST,14123
+2025-09-22,Riverbend IPA,C-EAST,25154
+2025-09-22,Riverbend IPA,C-WEST,17629
+2025-09-22,Solano Tequila,C-EAST,18034
+2025-09-22,Solano Tequila,C-WEST,16107
+2025-09-29,Black Pine Whiskey,C-EAST,18336
+2025-09-29,Black Pine Whiskey,C-WEST,19295
+2025-09-29,Crestmark Bourbon,C-EAST,14597
+2025-09-29,Crestmark Bourbon,C-WEST,14926
+2025-09-29,Maple Hollow Ale,C-EAST,39858
+2025-09-29,Maple Hollow Ale,C-WEST,12058
+2025-09-29,Northwind Lager,C-EAST,20654
+2025-09-29,Northwind Lager,C-WEST,12717
+2025-09-29,Riverbend IPA,C-EAST,26475
+2025-09-29,Riverbend IPA,C-WEST,23547
+2025-09-29,Solano Tequila,C-EAST,18733
+2025-09-29,Solano Tequila,C-WEST,13420
+2025-10-06,Black Pine Whiskey,C-EAST,19257
+2025-10-06,Black Pine Whiskey,C-WEST,15436
+2025-10-06,Crestmark Bourbon,C-EAST,15429
+2025-10-06,Crestmark Bourbon,C-WEST,12967
+2025-10-06,Maple Hollow Ale,C-EAST,25874
+2025-10-06,Maple Hollow Ale,C-WEST,12387
+2025-10-06,Northwind Lager,C-EAST,18956
+2025-10-06,Northwind Lager,C-WEST,9277
+2025-10-06,Riverbend IPA,C-EAST,23855
+2025-10-06,Riverbend IPA,C-WEST,23304
+2025-10-06,Solano Tequila,C-EAST,16849
+2025-10-06,Solano Tequila,C-WEST,13031
+2025-10-13,Black Pine Whiskey,C-EAST,21550
+2025-10-13,Black Pine Whiskey,C-WEST,15192
+2025-10-13,Crestmark Bourbon,C-EAST,19066
+2025-10-13,Crestmark Bourbon,C-WEST,13213
+2025-10-13,Maple Hollow Ale,C-EAST,38051
+2025-10-13,Maple Hollow Ale,C-WEST,13354
+2025-10-13,Northwind Lager,C-EAST,15836
+2025-10-13,Northwind Lager,C-WEST,8679
+2025-10-13,Riverbend IPA,C-EAST,20066
+2025-10-13,Riverbend IPA,C-WEST,26215
+2025-10-13,Solano Tequila,C-EAST,19414
+2025-10-13,Solano Tequila,C-WEST,12278
+2025-10-20,Black Pine Whiskey,C-EAST,18228
+2025-10-20,Black Pine Whiskey,C-WEST,13675
+2025-10-20,Crestmark Bourbon,C-EAST,24604
+2025-10-20,Crestmark Bourbon,C-WEST,13158
+2025-10-20,Maple Hollow Ale,C-EAST,25774
+2025-10-20,Maple Hollow Ale,C-WEST,12872
+2025-10-20,Northwind Lager,C-EAST,16997
+2025-10-20,Northwind Lager,C-WEST,8585
+2025-10-20,Riverbend IPA,C-EAST,17973
+2025-10-20,Riverbend IPA,C-WEST,24747
+2025-10-20,Solano Tequila,C-EAST,16337
+2025-10-20,Solano Tequila,C-WEST,16076
+2025-10-27,Black Pine Whiskey,C-EAST,16235
+2025-10-27,Black Pine Whiskey,C-WEST,10443
+2025-10-27,Crestmark Bourbon,C-EAST,22912
+2025-10-27,Crestmark Bourbon,C-WEST,15479
+2025-10-27,Maple Hollow Ale,C-EAST,30685
+2025-10-27,Maple Hollow Ale,C-WEST,13285
+2025-10-27,Northwind Lager,C-EAST,21004
+2025-10-27,Northwind Lager,C-WEST,9315
+2025-10-27,Riverbend IPA,C-EAST,18480
+2025-10-27,Riverbend IPA,C-WEST,18696
+2025-10-27,Solano Tequila,C-EAST,13915
+2025-10-27,Solano Tequila,C-WEST,16180
+2025-11-03,Black Pine Whiskey,C-EAST,16238
+2025-11-03,Black Pine Whiskey,C-WEST,13051
+2025-11-03,Crestmark Bourbon,C-EAST,17352
+2025-11-03,Crestmark Bourbon,C-WEST,18217
+2025-11-03,Maple Hollow Ale,C-EAST,36527
+2025-11-03,Maple Hollow Ale,C-WEST,10973
+2025-11-03,Northwind Lager,C-EAST,18279
+2025-11-03,Northwind Lager,C-WEST,9483
+2025-11-03,Riverbend IPA,C-EAST,20734
+2025-11-03,Riverbend IPA,C-WEST,17375
+2025-11-03,Solano Tequila,C-EAST,15153
+2025-11-03,Solano Tequila,C-WEST,15095
+2025-11-10,Black Pine Whiskey,C-EAST,15413
+2025-11-10,Black Pine Whiskey,C-WEST,15468
+2025-11-10,Crestmark Bourbon,C-EAST,14972
+2025-11-10,Crestmark Bourbon,C-WEST,13699
+2025-11-10,Maple Hollow Ale,C-EAST,50603
+2025-11-10,Maple Hollow Ale,C-WEST,11987
+2025-11-10,Northwind Lager,C-EAST,17679
+2025-11-10,Northwind Lager,C-WEST,10705
+2025-11-10,Riverbend IPA,C-EAST,21158
+2025-11-10,Riverbend IPA,C-WEST,14815
+2025-11-10,Solano Tequila,C-EAST,16110
+2025-11-10,Solano Tequila,C-WEST,14978
+2025-11-17,Black Pine Whiskey,C-EAST,17793
+2025-11-17,Black Pine Whiskey,C-WEST,13650
+2025-11-17,Crestmark Bourbon,C-EAST,17179
+2025-11-17,Crestmark Bourbon,C-WEST,18803
+2025-11-17,Maple Hollow Ale,C-EAST,35311
+2025-11-17,Maple Hollow Ale,C-WEST,11920
+2025-11-17,Northwind Lager,C-EAST,16734
+2025-11-17,Northwind Lager,C-WEST,9646
+2025-11-17,Riverbend IPA,C-EAST,20668
+2025-11-17,Riverbend IPA,C-WEST,14964
+2025-11-17,Solano Tequila,C-EAST,15846
+2025-11-17,Solano Tequila,C-WEST,15893
+2025-11-24,Black Pine Whiskey,C-EAST,21642
+2025-11-24,Black Pine Whiskey,C-WEST,17254
+2025-11-24,Crestmark Bourbon,C-EAST,23265
+2025-11-24,Crestmark Bourbon,C-WEST,20248
+2025-11-24,Maple Hollow Ale,C-EAST,24536
+2025-11-24,Maple Hollow Ale,C-WEST,9881
+2025-11-24,Northwind Lager,C-EAST,13738
+2025-11-24,Northwind Lager,C-WEST,11561
+2025-11-24,Riverbend IPA,C-EAST,23636
+2025-11-24,Riverbend IPA,C-WEST,16221
+2025-11-24,Solano Tequila,C-EAST,15084
+2025-11-24,Solano Tequila,C-WEST,14771
+2025-12-01,Black Pine Whiskey,C-EAST,19719
+2025-12-01,Black Pine Whiskey,C-WEST,18444
+2025-12-01,Crestmark Bourbon,C-EAST,17873
+2025-12-01,Crestmark Bourbon,C-WEST,15944
+2025-12-01,Maple Hollow Ale,C-EAST,35229
+2025-12-01,Maple Hollow Ale,C-WEST,12276
+2025-12-01,Northwind Lager,C-EAST,13502
+2025-12-01,Northwind Lager,C-WEST,11725
+2025-12-01,Riverbend IPA,C-EAST,23744
+2025-12-01,Riverbend IPA,C-WEST,25013
+2025-12-01,Solano Tequila,C-EAST,19079
+2025-12-01,Solano Tequila,C-WEST,15804
+2025-12-08,Black Pine Whiskey,C-EAST,20197
+2025-12-08,Black Pine Whiskey,C-WEST,15402
+2025-12-08,Crestmark Bourbon,C-EAST,21475
+2025-12-08,Crestmark Bourbon,C-WEST,17375
+2025-12-08,Maple Hollow Ale,C-EAST,23958
+2025-12-08,Maple Hollow Ale,C-WEST,14257
+2025-12-08,Northwind Lager,C-EAST,15099
+2025-12-08,Northwind Lager,C-WEST,8397
+2025-12-08,Riverbend IPA,C-EAST,21954
+2025-12-08,Riverbend IPA,C-WEST,29906
+2025-12-08,Solano Tequila,C-EAST,20963
+2025-12-08,Solano Tequila,C-WEST,14562
+2025-12-15,Black Pine Whiskey,C-EAST,14009
+2025-12-15,Black Pine Whiskey,C-WEST,15865
+2025-12-15,Crestmark Bourbon,C-EAST,18466
+2025-12-15,Crestmark Bourbon,C-WEST,16432
+2025-12-15,Maple Hollow Ale,C-EAST,27841
+2025-12-15,Maple Hollow Ale,C-WEST,11967
+2025-12-15,Northwind Lager,C-EAST,21524
+2025-12-15,Northwind Lager,C-WEST,8103
+2025-12-15,Riverbend IPA,C-EAST,18184
+2025-12-15,Riverbend IPA,C-WEST,23156
+2025-12-15,Solano Tequila,C-EAST,16819
+2025-12-15,Solano Tequila,C-WEST,13117
+2025-12-22,Black Pine Whiskey,C-EAST,18831
+2025-12-22,Black Pine Whiskey,C-WEST,13412
+2025-12-22,Crestmark Bourbon,C-EAST,16186
+2025-12-22,Crestmark Bourbon,C-WEST,14840
+2025-12-22,Maple Hollow Ale,C-EAST,24115
+2025-12-22,Maple Hollow Ale,C-WEST,13333
+2025-12-22,Northwind Lager,C-EAST,19263
+2025-12-22,Northwind Lager,C-WEST,8533
+2025-12-22,Riverbend IPA,C-EAST,18610
+2025-12-22,Riverbend IPA,C-WEST,22788
+2025-12-22,Solano Tequila,C-EAST,14244
+2025-12-22,Solano Tequila,C-WEST,14024
+2025-12-29,Black Pine Whiskey,C-EAST,22574
+2025-12-29,Black Pine Whiskey,C-WEST,16523
+2025-12-29,Crestmark Bourbon,C-EAST,15242
+2025-12-29,Crestmark Bourbon,C-WEST,14885
+2025-12-29,Maple Hollow Ale,C-EAST,25927
+2025-12-29,Maple Hollow Ale,C-WEST,11440
+2025-12-29,Northwind Lager,C-EAST,14969
+2025-12-29,Northwind Lager,C-WEST,10356
+2025-12-29,Riverbend IPA,C-EAST,16671
+2025-12-29,Riverbend IPA,C-WEST,21996
+2025-12-29,Solano Tequila,C-EAST,14306
+2025-12-29,Solano Tequila,C-WEST,17969
+2026-01-05,Black Pine Whiskey,C-EAST,21978
+2026-01-05,Black Pine Whiskey,C-WEST,20300
+2026-01-05,Crestmark Bourbon,C-EAST,30414
+2026-01-05,Crestmark Bourbon,C-WEST,18392
+2026-01-05,Maple Hollow Ale,C-EAST,22402
+2026-01-05,Maple Hollow Ale,C-WEST,10138
+2026-01-05,Northwind Lager,C-EAST,14079
+2026-01-05,Northwind Lager,C-WEST,11683
+2026-01-05,Riverbend IPA,C-EAST,19188
+2026-01-05,Riverbend IPA,C-WEST,15540
+2026-01-05,Solano Tequila,C-EAST,15890
+2026-01-05,Solano Tequila,C-WEST,16712
+2026-01-12,Black Pine Whiskey,C-EAST,20392
+2026-01-12,Black Pine Whiskey,C-WEST,11986
+2026-01-12,Crestmark Bourbon,C-EAST,21368
+2026-01-12,Crestmark Bourbon,C-WEST,15981
+2026-01-12,Maple Hollow Ale,C-EAST,48160
+2026-01-12,Maple Hollow Ale,C-WEST,12403
+2026-01-12,Northwind Lager,C-EAST,15151
+2026-01-12,Northwind Lager,C-WEST,9562
+2026-01-12,Riverbend IPA,C-EAST,25356
+2026-01-12,Riverbend IPA,C-WEST,17299
+2026-01-12,Solano Tequila,C-EAST,18323
+2026-01-12,Solano Tequila,C-WEST,15202
+2026-01-19,Black Pine Whiskey,C-EAST,18159
+2026-01-19,Black Pine Whiskey,C-WEST,13531
+2026-01-19,Crestmark Bourbon,C-EAST,21096
+2026-01-19,Crestmark Bourbon,C-WEST,18086
+2026-01-19,Maple Hollow Ale,C-EAST,45685
+2026-01-19,Maple Hollow Ale,C-WEST,11704
+2026-01-19,Northwind Lager,C-EAST,16829
+2026-01-19,Northwind Lager,C-WEST,8437
+2026-01-19,Riverbend IPA,C-EAST,19734
+2026-01-19,Riverbend IPA,C-WEST,17918
+2026-01-19,Solano Tequila,C-EAST,18004
+2026-01-19,Solano Tequila,C-WEST,13490
+2026-01-26,Black Pine Whiskey,C-EAST,16581
+2026-01-26,Black Pine Whiskey,C-WEST,15918
+2026-01-26,Crestmark Bourbon,C-EAST,19698
+2026-01-26,Crestmark Bourbon,C-WEST,22412
+2026-01-26,Maple Hollow Ale,C-EAST,37193
+2026-01-26,Maple Hollow Ale,C-WEST,11596
+2026-01-26,Northwind Lager,C-EAST,17226
+2026-01-26,Northwind Lager,C-WEST,8342
+2026-01-26,Riverbend IPA,C-EAST,24848
+2026-01-26,Riverbend IPA,C-WEST,16821
+2026-01-26,Solano Tequila,C-EAST,17431
+2026-01-26,Solano Tequila,C-WEST,11585
+2026-02-02,Black Pine Whiskey,C-EAST,19549
+2026-02-02,Black Pine Whiskey,C-WEST,18466
+2026-02-02,Crestmark Bourbon,C-EAST,22425
+2026-02-02,Crestmark Bourbon,C-WEST,18985
+2026-02-02,Maple Hollow Ale,C-EAST,37638
+2026-02-02,Maple Hollow Ale,C-WEST,10404
+2026-02-02,Northwind Lager,C-EAST,18669
+2026-02-02,Northwind Lager,C-WEST,8319
+2026-02-02,Riverbend IPA,C-EAST,24696
+2026-02-02,Riverbend IPA,C-WEST,19768
+2026-02-02,Solano Tequila,C-EAST,18847
+2026-02-02,Solano Tequila,C-WEST,19051
+2026-02-09,Black Pine Whiskey,C-EAST,20245
+2026-02-09,Black Pine Whiskey,C-WEST,17908
+2026-02-09,Crestmark Bourbon,C-EAST,19365
+2026-02-09,Crestmark Bourbon,C-WEST,17234
+2026-02-09,Maple Hollow Ale,C-EAST,32876
+2026-02-09,Maple Hollow Ale,C-WEST,12143
+2026-02-09,Northwind Lager,C-EAST,14553
+2026-02-09,Northwind Lager,C-WEST,8475
+2026-02-09,Riverbend IPA,C-EAST,17689
+2026-02-09,Riverbend IPA,C-WEST,20145
+2026-02-09,Solano Tequila,C-EAST,21054
+2026-02-09,Solano Tequila,C-WEST,14527
+2026-02-16,Black Pine Whiskey,C-EAST,18050
+2026-02-16,Black Pine Whiskey,C-WEST,15511
+2026-02-16,Crestmark Bourbon,C-EAST,20438
+2026-02-16,Crestmark Bourbon,C-WEST,28750
+2026-02-16,Maple Hollow Ale,C-EAST,34141
+2026-02-16,Maple Hollow Ale,C-WEST,12573
+2026-02-16,Northwind Lager,C-EAST,14294
+2026-02-16,Northwind Lager,C-WEST,9816
+2026-02-16,Riverbend IPA,C-EAST,18738
+2026-02-16,Riverbend IPA,C-WEST,23109
+2026-02-16,Solano Tequila,C-EAST,14477
+2026-02-16,Solano Tequila,C-WEST,14342
+2026-02-23,Black Pine Whiskey,C-EAST,20423
+2026-02-23,Black Pine Whiskey,C-WEST,14643
+2026-02-23,Crestmark Bourbon,C-EAST,18881
+2026-02-23,Crestmark Bourbon,C-WEST,15793
+2026-02-23,Maple Hollow Ale,C-EAST,25137
+2026-02-23,Maple Hollow Ale,C-WEST,11170
+2026-02-23,Northwind Lager,C-EAST,16856
+2026-02-23,Northwind Lager,C-WEST,8516
+2026-02-23,Riverbend IPA,C-EAST,21400
+2026-02-23,Riverbend IPA,C-WEST,18614
+2026-02-23,Solano Tequila,C-EAST,15016
+2026-02-23,Solano Tequila,C-WEST,14626
+2026-03-02,Black Pine Whiskey,C-EAST,16748
+2026-03-02,Black Pine Whiskey,C-WEST,11689
+2026-03-02,Crestmark Bourbon,C-EAST,16429
+2026-03-02,Crestmark Bourbon,C-WEST,16283
+2026-03-02,Maple Hollow Ale,C-EAST,26191
+2026-03-02,Maple Hollow Ale,C-WEST,9688
+2026-03-02,Northwind Lager,C-EAST,18867
+2026-03-02,Northwind Lager,C-WEST,10260
+2026-03-02,Riverbend IPA,C-EAST,21147
+2026-03-02,Riverbend IPA,C-WEST,16806
+2026-03-02,Solano Tequila,C-EAST,13702
+2026-03-02,Solano Tequila,C-WEST,16228
+2026-03-09,Black Pine Whiskey,C-EAST,12951
+2026-03-09,Black Pine Whiskey,C-WEST,12647
+2026-03-09,Crestmark Bourbon,C-EAST,17857
+2026-03-09,Crestmark Bourbon,C-WEST,14087
+2026-03-09,Maple Hollow Ale,C-EAST,32940
+2026-03-09,Maple Hollow Ale,C-WEST,12359
+2026-03-09,Northwind Lager,C-EAST,19363
+2026-03-09,Northwind Lager,C-WEST,6960
+2026-03-09,Riverbend IPA,C-EAST,25991
+2026-03-09,Riverbend IPA,C-WEST,17804
+2026-03-09,Solano Tequila,C-EAST,12499
+2026-03-09,Solano Tequila,C-WEST,17610
+2026-03-16,Black Pine Whiskey,C-EAST,18245
+2026-03-16,Black Pine Whiskey,C-WEST,13293
+2026-03-16,Crestmark Bourbon,C-EAST,16157
+2026-03-16,Crestmark Bourbon,C-WEST,16973
+2026-03-16,Maple Hollow Ale,C-EAST,25495
+2026-03-16,Maple Hollow Ale,C-WEST,10990
+2026-03-16,Northwind Lager,C-EAST,18735
+2026-03-16,Northwind Lager,C-WEST,6854
+2026-03-16,Riverbend IPA,C-EAST,25715
+2026-03-16,Riverbend IPA,C-WEST,19411
+2026-03-16,Solano Tequila,C-EAST,15930
+2026-03-16,Solano Tequila,C-WEST,16599
+2026-03-23,Black Pine Whiskey,C-EAST,20014
+2026-03-23,Black Pine Whiskey,C-WEST,16031
+2026-03-23,Crestmark Bourbon,C-EAST,14574
+2026-03-23,Crestmark Bourbon,C-WEST,14929
+2026-03-23,Maple Hollow Ale,C-EAST,31578
+2026-03-23,Maple Hollow Ale,C-WEST,12715
+2026-03-23,Northwind Lager,C-EAST,16339
+2026-03-23,Northwind Lager,C-WEST,7925
+2026-03-23,Riverbend IPA,C-EAST,24687
+2026-03-23,Riverbend IPA,C-WEST,17379
+2026-03-23,Solano Tequila,C-EAST,15901
+2026-03-23,Solano Tequila,C-WEST,13515
+2026-03-30,Black Pine Whiskey,C-EAST,19467
+2026-03-30,Black Pine Whiskey,C-WEST,11033
+2026-03-30,Crestmark Bourbon,C-EAST,16928
+2026-03-30,Crestmark Bourbon,C-WEST,15976
+2026-03-30,Maple Hollow Ale,C-EAST,29405
+2026-03-30,Maple Hollow Ale,C-WEST,15315
+2026-03-30,Northwind Lager,C-EAST,17414
+2026-03-30,Northwind Lager,C-WEST,8079
+2026-03-30,Riverbend IPA,C-EAST,24334
+2026-03-30,Riverbend IPA,C-WEST,20888
+2026-03-30,Solano Tequila,C-EAST,30922
+2026-03-30,Solano Tequila,C-WEST,14133
+2026-04-06,Black Pine Whiskey,C-EAST,18057
+2026-04-06,Black Pine Whiskey,C-WEST,14865
+2026-04-06,Crestmark Bourbon,C-EAST,18861
+2026-04-06,Crestmark Bourbon,C-WEST,17095
+2026-04-06,Maple Hollow Ale,C-EAST,35327
+2026-04-06,Maple Hollow Ale,C-WEST,14789
+2026-04-06,Northwind Lager,C-EAST,22002
+2026-04-06,Northwind Lager,C-WEST,11702
+2026-04-06,Riverbend IPA,C-EAST,20870
+2026-04-06,Riverbend IPA,C-WEST,20410
+2026-04-06,Solano Tequila,C-EAST,17829
+2026-04-06,Solano Tequila,C-WEST,11087
+2026-04-13,Black Pine Whiskey,C-EAST,20566
+2026-04-13,Black Pine Whiskey,C-WEST,18385
+2026-04-13,Crestmark Bourbon,C-EAST,16399
+2026-04-13,Crestmark Bourbon,C-WEST,15895
+2026-04-13,Maple Hollow Ale,C-EAST,40003
+2026-04-13,Maple Hollow Ale,C-WEST,12764
+2026-04-13,Northwind Lager,C-EAST,21659
+2026-04-13,Northwind Lager,C-WEST,9775
+2026-04-13,Riverbend IPA,C-EAST,19813
+2026-04-13,Riverbend IPA,C-WEST,24488
+2026-04-13,Solano Tequila,C-EAST,18002
+2026-04-13,Solano Tequila,C-WEST,9283
+2026-04-20,Black Pine Whiskey,C-EAST,14635
+2026-04-20,Black Pine Whiskey,C-WEST,16732
+2026-04-20,Crestmark Bourbon,C-EAST,16024
+2026-04-20,Crestmark Bourbon,C-WEST,15957
+2026-04-20,Maple Hollow Ale,C-EAST,36188
+2026-04-20,Maple Hollow Ale,C-WEST,13933
+2026-04-20,Northwind Lager,C-EAST,22403
+2026-04-20,Northwind Lager,C-WEST,10369
+2026-04-20,Riverbend IPA,C-EAST,24601
+2026-04-20,Riverbend IPA,C-WEST,22713
+2026-04-20,Solano Tequila,C-EAST,14496
+2026-04-20,Solano Tequila,C-WEST,14564
+2026-04-27,Black Pine Whiskey,C-EAST,12923
+2026-04-27,Black Pine Whiskey,C-WEST,16490
+2026-04-27,Crestmark Bourbon,C-EAST,15569
+2026-04-27,Crestmark Bourbon,C-WEST,15742
+2026-04-27,Maple Hollow Ale,C-EAST,28445
+2026-04-27,Maple Hollow Ale,C-WEST,9938
+2026-04-27,Northwind Lager,C-EAST,21673
+2026-04-27,Northwind Lager,C-WEST,10558
+2026-04-27,Riverbend IPA,C-EAST,21818
+2026-04-27,Riverbend IPA,C-WEST,23156
+2026-04-27,Solano Tequila,C-EAST,15959
+2026-04-27,Solano Tequila,C-WEST,20750
+2026-05-04,Black Pine Whiskey,C-EAST,12667
+2026-05-04,Black Pine Whiskey,C-WEST,14329
+2026-05-04,Crestmark Bourbon,C-EAST,12904
+2026-05-04,Crestmark Bourbon,C-WEST,14057
+2026-05-04,Maple Hollow Ale,C-EAST,29670
+2026-05-04,Maple Hollow Ale,C-WEST,15979
+2026-05-04,Northwind Lager,C-EAST,20065
+2026-05-04,Northwind Lager,C-WEST,7964
+2026-05-04,Riverbend IPA,C-EAST,32970
+2026-05-04,Riverbend IPA,C-WEST,24276
+2026-05-04,Solano Tequila,C-EAST,14137
+2026-05-04,Solano Tequila,C-WEST,15733
+2026-05-11,Black Pine Whiskey,C-EAST,20853
+2026-05-11,Black Pine Whiskey,C-WEST,14452
+2026-05-11,Crestmark Bourbon,C-EAST,16549
+2026-05-11,Crestmark Bourbon,C-WEST,12368
+2026-05-11,Maple Hollow Ale,C-EAST,30149
+2026-05-11,Maple Hollow Ale,C-WEST,11005
+2026-05-11,Northwind Lager,C-EAST,17946
+2026-05-11,Northwind Lager,C-WEST,8114
+2026-05-11,Riverbend IPA,C-EAST,23954
+2026-05-11,Riverbend IPA,C-WEST,18650
+2026-05-11,Solano Tequila,C-EAST,16092
+2026-05-11,Solano Tequila,C-WEST,12102

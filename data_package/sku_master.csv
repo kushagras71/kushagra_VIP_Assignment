@@ -1,0 +1,41 @@
+sku_id,sku_name,category,parent_brand,launch_date,unit_cost
+SKU-1042,Black Pine Whiskey Trucker Cap,Headwear,Black Pine Whiskey,2024-10-28,10.24
+SKU-1002,Northwind Lager Snapback,Headwear,Northwind Lager,2025-12-01,20.08
+SKU-1003,Riverbend IPA Beanie,Headwear,Riverbend IPA,2024-09-30,13.84
+SKU-1004,Crestmark Bourbon Bucket Hat,Headwear,Crestmark Bourbon,2026-01-26,15.88
+SKU-1005,Black Pine Whiskey Visor,Headwear,Black Pine Whiskey,2026-01-26,19.42
+SKU-1006,Solano Tequila Dad Hat,Headwear,Solano Tequila,2024-07-29,17.94
+SKU-1007,Crestmark Bourbon 5-Panel,Headwear,Crestmark Bourbon,2024-11-04,20.6
+SKU-1008,Crestmark Bourbon Wool Cap,Headwear,Crestmark Bourbon,2024-09-02,26.95
+SKU-1009,Solano Tequila Tee Short Sleeve,Apparel,Solano Tequila,2024-09-30,5.87
+SKU-1010,Maple Hollow Ale Long Sleeve Tee,Apparel,Maple Hollow Ale,2024-02-12,23.27
+SKU-1011,Northwind Lager Pullover Hoodie,Apparel,Northwind Lager,2024-03-11,27.34
+SKU-1012,Maple Hollow Ale Zip Hoodie,Apparel,Maple Hollow Ale,2024-03-04,23.82
+SKU-1013,Maple Hollow Ale Crewneck Sweatshirt,Apparel,Maple Hollow Ale,2023-10-16,17.65
+SKU-1014,Black Pine Whiskey Tank Top,Apparel,Black Pine Whiskey,2024-10-21,9.08
+SKU-1015,Crestmark Bourbon Flannel Shirt,Apparel,Crestmark Bourbon,2024-09-30,24.73
+SKU-1016,Black Pine Whiskey Polo,Apparel,Black Pine Whiskey,2024-04-15,23.94
+SKU-1017,Crestmark Bourbon Pint Glass Set,Drinkware,Crestmark Bourbon,2026-01-12,19.92
+SKU-3008,Black Pine Whiskey Insulated Tumbler 20oz,Drinkware,Black Pine Whiskey,2024-01-08,5.25
+SKU-1019,Black Pine Whiskey Pilsner Glass,Drinkware,Black Pine Whiskey,2024-03-11,9.5
+SKU-1020,Black Pine Whiskey Coffee Mug,Drinkware,Black Pine Whiskey,2024-07-08,20.36
+SKU-1021,Northwind Lager Highball Glass,Drinkware,Northwind Lager,2026-01-12,9.11
+SKU-1022,Solano Tequila Shaker Tin,Drinkware,Solano Tequila,2026-01-12,10.06
+SKU-1023,Black Pine Whiskey Coupe Glass Pair,Drinkware,Black Pine Whiskey,2025-12-15,11.21
+SKU-1024,Black Pine Whiskey Travel Flask,Drinkware,Black Pine Whiskey,2024-05-13,14.74
+SKU-1025,Black Pine Whiskey Leather Coaster Set,Accessories,Black Pine Whiskey,2024-07-22,17.25
+SKU-1026,Solano Tequila Bottle Opener Keychain,Accessories,Solano Tequila,2024-02-19,25.5
+SKU-1027,Crestmark Bourbon Canvas Tote,Accessories,Crestmark Bourbon,2024-07-29,15.98
+SKU-1028,Northwind Lager Bar Towel Pair,Accessories,Northwind Lager,2026-02-16,7.24
+SKU-1029,Solano Tequila Lapel Pin Set,Accessories,Solano Tequila,2025-12-08,18.11
+SKU-1030,Solano Tequila Sticker Pack,Accessories,Solano Tequila,2024-02-12,16.46
+SKU-1031,Northwind Lager Drawstring Bag,Accessories,Northwind Lager,2023-10-16,20.17
+SKU-1032,Riverbend IPA Neoprene Koozie,Accessories,Riverbend IPA,2025-11-10,21.9
+SKU-1033,Northwind Lager Vintage Snapback,Headwear,Northwind Lager,2024-06-10,10.69
+SKU-1034,Black Pine Whiskey Mesh Trucker,Headwear,Black Pine Whiskey,2026-03-02,24.96
+SKU-2017,Crestmark Bourbon Premium Tee,Apparel,Crestmark Bourbon,2026-01-05,15.94
+SKU-2099,Maple Hollow Ale Lightweight Hoodie,Apparel,Maple Hollow Ale,2025-12-22,24.12
+SKU-1037,Crestmark Bourbon Stemless Wine Glass,Drinkware,Crestmark Bourbon,2024-08-12,12.66
+SKU-1038,Riverbend IPA Mason Jar Mug,Drinkware,Riverbend IPA,2025-12-08,26.0
+SKU-1039,Northwind Lager Magnetic Bottle Opener,Accessories,Northwind Lager,2024-04-01,6.24
+SKU-1040,Maple Hollow Ale Embroidered Patch Set,Accessories,Maple Hollow Ale,2025-12-01,9.37

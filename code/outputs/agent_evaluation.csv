@@ -1,0 +1,7 @@
+scenario,planner_routed_correctly,tool_args_reasonable,quality_1_to_5,tools_called
+1,True,True,5,Forecasting Agent
+2,True,True,5,"Forecasting Agent, Knowledge Agent"
+3,True,True,5,"Forecasting Agent, Knowledge Agent"
+4,True,True,5,"Forecasting Agent, Forecasting Agent, Knowledge Agent"
+5,True,True,5,Knowledge Agent
+6,True,True,5,"Forecasting Agent, Knowledge Agent"
